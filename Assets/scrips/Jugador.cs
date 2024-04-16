@@ -9,7 +9,7 @@ public class Jugador : MonoBehaviour
 {
     public Nave LaNave;
     SpriteRenderer MySprite;
-    [SerializeField] float vida;
+    public float vida;
     [SerializeField] float velocidadHorizontal;
     [SerializeField] float velocidadVertical;
     [SerializeField] float alturaMax;

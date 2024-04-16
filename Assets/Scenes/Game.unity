@@ -371,9 +371,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2097833567}
+      - m_Target: {fileID: 2097833563}
         m_TargetAssemblyTypeName: UiControler, Assembly-CSharp
-        m_MethodName: RegresarMenu
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
