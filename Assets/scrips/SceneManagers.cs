@@ -6,20 +6,20 @@ using UnityEngine.SceneManagement;
 
 public class SceneManagers : MonoBehaviour
 {
-    [SerializeField] private bool Escena_cargada = false;
-    public int Index_escena;
-    public Jugador V_Jugador;
+    //[SerializeField] private bool Escena_cargada = false;
+    //public int Index_escena;
+    //public Jugador V_Jugador;
 
-    private void Update()
-    {
-        SiMuere();
-    }
+    //private void Update()
+    //{
+    //    SiMuere();
+    //}
 
-    public void SiMuere()
-    {
-        if (V_Jugador.vida == 0) 
-        {
-            SceneManager.LoadSceneAsync(Index_escena, LoadSceneMode.Additive);
-        }
-    }
+    //public void SiMuere()
+    //{
+    //    if (V_Jugador.vida == 0) 
+    //    {
+    //        SceneManager.LoadSceneAsync(Index_escena, LoadSceneMode.Additive);
+    //    }
+    //}
 }
